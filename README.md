@@ -1,24 +1,21 @@
-# README
+# Intern-Assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prepare:
+* Ruby - v2.7.6
+* Node - v14.21.1
+* Yarn - v1.22.19
 
-Things you may want to cover:
+Install Ubuntu:
+1.Install Dependences
+```bash
+bundle install && yarn install
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. Compile Webpack
+```bash
+bundle exec rails webpacker:compile
+```
+3. Run server
+```bash
+bundle exec rails s
+```
