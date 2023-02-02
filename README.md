@@ -6,7 +6,7 @@ Prepare:
 * Yarn - v1.22.19
 
 Install Ubuntu:
-1.Install Dependences
+1. Install Dependences
 ```bash
 bundle install && yarn install
 ```
