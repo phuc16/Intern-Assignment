@@ -1,5 +1,11 @@
 # Intern-Assignment
 
+## Docker
+```bash
+docker build -t assignment . && docker-compose up
+```
+
+## Guide
 Prepare:
 * Ruby - v2.7.6
 * Node - v14.21.1
